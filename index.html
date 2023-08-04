@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uship - Inicio</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header>
+    <div class="logo">
+        <img src="logo.png" alt="Uship Logo">
+      </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="envios-nacionales.html">Envíos Nacionales</a></li>
+        <li><a href="envios-internacionales.html">Envíos Internacionales</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+ <div class="form-container">
+      <form>
+      <fieldset>  
+        <p class="form">Seleccione el Origen:<br>
+          <select name="comunidad" id="origen" class="sel">
+            <option value="0">Origen</option>
+            <option value="Andalucia">Andalucía</option>
+            <option value="Aragon">Aragón</option>
+            <option value="Asturias">Asturias</option>
+            <option value="Islas Baleares">Islas Baleares</option>
+            <option value="Paisvasco">País Vasco</option>
+            <option value="Canarias">Canarias</option>
+            <option value="Cantabria">Cantabria</option>
+            <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+            <option value="Castillayleon">Castilla y León</option>
+            <option value="Cataluna">Cataluña</option>
+            <option value="Extremadura">Extremadura</option>
+            <option value="Galicia">Galicia</option>
+            <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+            <option value="Murcia"> Murcia</option>
+            <option value="Navarra"> Navarra</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+            <option value="Ceuta">Ceuta</option>
+            <option value="Melilla">Melilla</option>
+          </select>
+        </p>
+        <p class="form2">Seleccione el Destino:<br>
+          <select name="comunidad" id="destino" class="sel">
+            <option value="0">Destino</option>
+            <option value="Andalucia">Andalucía</option>
+            <option value="Aragon">Aragón</option>
+            <option value="Asturias">Asturias</option>
+            <option value="Islas Baleares">Islas Baleares</option>
+            <option value="Paisvasco">País Vasco</option>
+            <option value="Canarias">Canarias</option>
+            <option value="Cantabria">Cantabria</option>
+            <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+            <option value="Castillayleon">Castilla y León</option>
+            <option value="Cataluna">Cataluña</option>
+            <option value="Extremadura">Extremadura</option>
+            <option value="Galicia">Galicia</option>
+            <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+            <option value="Murcia"> Murcia</option>
+            <option value="Navarra"> Navarra</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+            <option value="Ceuta">Ceuta</option>
+            <option value="Melilla">Melilla</option>
+          </select>
+        </p>
+        <p class="form2">Tipo de Envío:<br>
+          <select name="paquete" id="envio" class="sel">
+            <option value="0">Tipo</option>
+            <option value="sobre">Sobre</option>
+            <option value="5kg">Paquete menor de 5Kg</option>
+            <option value="10kg">Paquete menor de 10Kg</option>
+            <option value="15kg">Paquete menor de 15Kg</option>
+            <option value="20kg">Paquete menor de 20Kg</option>
+          </select>
+        </p>
+        <br>
+        <input class="boton" type="submit" value="Calcular" onclick="return calculo()">
+      </fieldset>
+      </form>
+    </div>
+
+  <footer>
+    <script src="script.js"></script>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('enviar-paqueteria.webp'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+ header {
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+ header .logo {
+    display: inline-block;
+  }
+  
+  header .logo img {
+    height: 50px;
+  }
+
+ nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid transparent; /* Agregamos un borde transparente */
+    border-radius: 5px;
+  }
+  
+  nav a.active {
+    border-color: red; /* Al seleccionar una opción, el borde se vuelve rojo */
+  }
+
+  .cent{
+    text-align: center;
+}
+
+h1 {
+    color:#333;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+footer {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+ .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo del div */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+.sel {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .boton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #BF452A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
